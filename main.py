@@ -91,7 +91,7 @@ if missing:
 
 
 def count_images_by_class(directory: Path):
-    valid_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp"}
+    valid_extensions = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp", ".heic"}
     counts = {}
     for class_name in CLASS_NAMES:
         class_dir = directory / class_name

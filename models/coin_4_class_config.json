@@ -1,0 +1,14 @@
+{
+  "class_names": [
+    "10_cent",
+    "1_dollar",
+    "20_cent",
+    "50_cent"
+  ],
+  "image_size": [
+    160,
+    160
+  ],
+  "model_path": "models\\coin_cnn_4_class_best.keras",
+  "number_of_classes": 4
+}
